@@ -7,15 +7,16 @@
 		<Description>IDisposable for handling async stuff safely within non async context</Description>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Copyright>MIT</Copyright>
-		<PackageProjectUrl>https://github.com/theGerk/tabletransfer</PackageProjectUrl>
+		<PackageProjectUrl>SynchronizationContextSwap</PackageProjectUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.1|AnyCPU'">
-		<DocumentationFile>C:\Users\Benji\source\repos\tabletransfer\tabletransfer\tabletransfer.xml</DocumentationFile>
+	  <OutputPath>bin\</OutputPath>
+	  <DocumentationFile>bin\SynchronizationContextSwap.xml</DocumentationFile>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.1|AnyCPU'">
-		<DocumentationFile>C:\Users\Benji\source\repos\tabletransfer\tabletransfer\tabletransfer.xml</DocumentationFile>
+	  <OutputPath>bin\</OutputPath>
+	  <DocumentationFile>bin\SynchronizationContextSwap.xml</DocumentationFile>
 	</PropertyGroup>
-
 </Project>
