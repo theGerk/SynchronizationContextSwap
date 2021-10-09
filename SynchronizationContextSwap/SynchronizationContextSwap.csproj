@@ -8,15 +8,6 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Copyright>MIT</Copyright>
 		<PackageProjectUrl>SynchronizationContextSwap</PackageProjectUrl>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.1|AnyCPU'">
-	  <OutputPath>bin\</OutputPath>
-	  <DocumentationFile>bin\SynchronizationContextSwap.xml</DocumentationFile>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.1|AnyCPU'">
-	  <OutputPath>bin\</OutputPath>
-	  <DocumentationFile>bin\SynchronizationContextSwap.xml</DocumentationFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 </Project>
