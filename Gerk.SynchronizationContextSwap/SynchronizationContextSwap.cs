@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SynchronizationContextSwap
+namespace Gerk.SynchronizationContextSwap
 {
 	/// <summary>
 	/// Use within using statment to swap to new context.
