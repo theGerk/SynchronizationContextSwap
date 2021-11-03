@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.1;netstandard2.0;net45;net461</TargetFrameworks>
+		<TargetFrameworks>net5;netstandard2.1;netstandard2.0;net45;net461</TargetFrameworks>
 		<Authors>Benji Altman</Authors>
 		<Company></Company>
 		<Description>IDisposable for handling async stuff safely within non async context</Description>
@@ -9,5 +9,6 @@
 		<Copyright>MIT</Copyright>
 		<PackageProjectUrl>SynchronizationContextSwap</PackageProjectUrl>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Version>1.1.0</Version>
 	</PropertyGroup>
 </Project>
