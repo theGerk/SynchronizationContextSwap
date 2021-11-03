@@ -8,7 +8,7 @@ namespace Gerk.SynchronizationContextSwap
 	/// Use within using statment to swap to new context.
 	/// Lets you use <see cref="Task.Wait()"/> or <see cref="Task{T}.Result"/> within the using block.
 	/// </summary>
-	public class SynchronizationContextSwap<T> : IDisposable
+	public class SynchronizationContextSwap : IDisposable
 	{
 		/// <summary>
 		/// The old context that is replaced.
